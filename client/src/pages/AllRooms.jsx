@@ -40,7 +40,7 @@ const AllRooms = () => {
         "Single Bed",
         "Double Bed",
         "Luxury Room",
-        "Family Suite",
+        // "Family Suite",
     ];
 
     const priceRanges = [
@@ -160,7 +160,7 @@ const AllRooms = () => {
                                 ))}
                             </div>
                             {/* Room Price per Night */}
-                            <p className='text-xl font-medium text-gray-700'>${room.pricePerNight} /month</p>
+                            <p className='text-xl font-medium text-gray-700'>₹{room.pricePerNight} /month</p>
                         </div>
                     </div>
                 ))}
